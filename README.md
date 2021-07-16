@@ -88,7 +88,7 @@ Yes
 Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it simplifies tasks.
 
-TODO: The main advantage of automating configuration with Ansible is organization and efficiency 
+The main advantage of automating configuration with Ansible is organization and efficiency 
 
 The playbook implements the following tasks:
 
@@ -127,7 +127,6 @@ Copy the playbook.yml file to etc/ansible/roles.
 Update the playbook.yml file to include the elk webserver
 Run the playbook, and navigate to kibana to check that the installation worked as expected.
 
-TODO: Answer the following questions to fill in the blanks:
 
 The yml files are the playbooks, they're copied in JumpboxProvisioner, in etc/ansible/roles.
 update the hosts file to make Ansible run the playbook on a specific machine. Specify which machine to run the elk server on in the host groups by nano.
